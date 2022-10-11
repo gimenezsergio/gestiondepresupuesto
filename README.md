@@ -12,14 +12,14 @@ Valor de cambio al dolar
 Agregar gasto programado, como el de un curso
 Crear reportes en html, pdf, excel, csv
 Interfaz personalizable, minimalista
-Cuentas: Cuanto dinero hay en efectivo, payPal, MP, Caja de ahorro, cuanta corriente, etc
+Cuentas: Cuanto dinero hay en efectivo, payPal, MP, Caja de ahorro, cuenta corriente, etc
 Presupuesto/limite por categorias o por tiempo
 
 
 Dashboard:
 Grafico por mes y anual
 Categorias
-Porentaje y neto
+Porcentaje y neto
 
 MVP - Producto Minimo Viable : https://templates.office.com/es-ar/presupuesto-familiar-por-mes-tm02930057
 
