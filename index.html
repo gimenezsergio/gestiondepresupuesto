@@ -5,26 +5,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+    <title>Finanzas Personales</title>
 </head>
 
 <body>
+    <h1>Finanzas Personales</h1>
     <div>
-        <input type="number" name="" id="ingreso"> <button onclick="ingreso()">Ingreso</button>
+        <input type="number" name="" id="ingreso"> <button onclick="ingreso()">Ingresos</button>
     </div>
     <div>
-        <input type="number" name="" id="egreso"> <button onclick="egreso()">Egreso</button>
+        <input type="number" id="egreso"> <button onclick="egreso()">Egresos</button>
     </div>
-    <div>
-        Total ingreso: <span id="totalIngreso">0</span>
+
+    <div id="paneles">
+        <div>
+            Gastado: <span id="gastado">0</span>
+        </div>
+        <div>
+            Ingresado: <span id="ingresado">0</span>
+        </div>
+        <div>
+            Balance: <span id="balance">0</span>
+        </div>
     </div>
-    <div>
-        Total egreso: <span id="totalEgreso">0</span>
+    <div id="wrapperChart">
+        <canvas id="myChart" width="400" height="400"></canvas>
     </div>
-    <div>
-        Total: <span id="total">0</span>
-    </div>
+    
     <script src="program.js"></script>
+    
+    
 </body>
 
 </html>
